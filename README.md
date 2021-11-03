@@ -15,11 +15,11 @@ as it was heavily traded and had great positive returns in both 2017 and 2018. S
 <img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2017.PNG"> <img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2018.PNG">
 
   The refactoring of the script to run the stock analysis was a great success. The speed the results are generated in is over 8 times faster than the original script. By changing the macro that the 'Run Analysis for All Stocks' button
-is assigned to, it's easy to compare the old script run time to the new script run time. Below are some screenshots of the elapsed time of the run. The first two are when the original macro was run and the second two or from when the refactored macro was run.
-<img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2017_Original_Macro.PNG"><img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2018_Original_Macro.PNG">
+is assigned to, it's easy to compare the old script run time to the new script run time. Below are some screenshots of the elapsed time of the run. The original macro elapsed time and the refactored macro elapsed time are shown in pop-up boxes below. The original ran between 6 and 7 tenths of a second and the refactored macro ran in less than 1 tenth of a second for both 2017 and 2018.
+<img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2017_Original_Macro.PNG"><img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG">
 #
 #
-<img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG"><img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG">
+<img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2018_Original_Macro.PNG"><img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG">
   
   The biggest gain from the refactoring was achieved by looping through the entire list of all the stocks starting and ending price and volume traded each day only once. By using arrays, I could check the ticker and capture and sum up the volume of trades and the starting and ending prices in one loop rather than looping through the entire set one time for each specific ticker abbreviation.  I was also able to gain a little extra performance by moving the activate worksheet outside the For loop when setting the total volume and return on the All Stocks Analysis worksheet.
 
