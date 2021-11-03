@@ -1,5 +1,3 @@
-# stock-analysis
-
 # Stock-Analysis
 
 ## Overview of Project
@@ -12,7 +10,7 @@ Results: Using images and examples of your code, compare the stock performance b
 
 In general, Green stocks performed much better in 2017 than they did in 2018. In fact, of the 12 stocks tracked, only one had a negative return in 2017 while in 2018 only 2 of the 12 stocks had a positive return.
 DQ, the stock that was initially focused on, performed better than all the other stocks tracked in 2017. In 2018 however, DQ was the worst-performing stock and one of the least traded. I would recommend investing in ENPH
-as it was heavily traded and had great positive returns in both 2017 and 2018. See the tables below for the Total Daily Volume and yearly return of the 12 green stocks tracked for 2017 and 2018.
+as it was heavily traded and had great positive returns in both 2017 and 2018. See the tables below for the Total Daily Volume and yearly return of the 12 green stocks tracked for 2017 and 2018. The values with a green background indicate positive returns while the red background indicate negative returns.
 #
 <img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2017.PNG"> <img src = "https://github.com/AaronAKTX/stock-analysis/blob/main/Resources/2018.PNG">
 
